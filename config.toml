@@ -1,0 +1,72 @@
+baseURL = "http://www.jameswmcnab.com"
+title = "James W McNab"
+copyright = "© 2017 James William McNab"
+
+theme = "minimo"
+
+disqusShortname = ""
+googleAnalytics = ""
+Paginate = 5
+
+preserveTaxonomyNames = true
+
+[params]
+  description = "This is the website of James William McNab, a software developer based in York, UK"
+  dateFormat = "2006-01-02"
+  copyrightOwner = "James William McNab"
+  copyrightStartYear = "2017"
+  favicon = "favicon.ico"
+  hideEntryNavigation = false
+  customCSS = ["css/custom.css"]
+  customJS = ["js/custom.js"]
+
+[params.seo]
+  # Title Separator: - – — · • * ⋆ | ~ « » < >
+  titleSeparator = "•"
+
+[params.opengraph]
+  [params.opengraph.facebook]
+    admins = ""
+    appid = ""
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[social]
+  facebook = ""
+
+[author]
+  name = "James William McNab"
+
+[author.social]
+  codepen = ""
+  facebook = ""
+  github = "jameswmcnab"
+  instagram = ""
+  twitter = "jameswmcnab"
+
+[permalinks]
+  page = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  weight = -80
+  identifer = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "About"
+  weight = -70
+  identifier = "about"
+  url = "/about/"
+
+# Language Configuration
+defaultContentLanguage = "en"
+
+[languages]
+  # edit this block for your own language
+  [languages.en]
+    lang = "en"
+    languageName = "English"
+    weight = 1
