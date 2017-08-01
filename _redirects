@@ -1,0 +1,7 @@
+# Redirect jameswmcnab.co.uk
+http://www.jameswmcnab.co.uk/* https://www.jameswmcnab.com/:splat 301!
+https://www.jameswmcnab.co.uk/* https://www.jameswmcnab.com/:splat 301!
+
+# Redirect jamesmcnab.co.uk
+http://www.jamesmcnab.co.uk/* https://www.jameswmcnab.com/:splat 301!
+https://www.jamesmcnab.co.uk/* https://www.jameswmcnab.com/:splat 301!
