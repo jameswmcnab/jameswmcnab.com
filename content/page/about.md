@@ -4,13 +4,15 @@ draft: false
 menu: about
 ---
 
-My name is James William McNab and I am a web developer & designer. Originally from York, I studied at Sheffield Hallam University and graduated with a First-class Honours degree in Computer Networks.
+My name is James William McNab and I am a PHP Developer/DevOps Engineer living in York, UK. I studied at Sheffield Hallam University and graduated with a First-class Honours degree in Computer Networks.
 
-I create unique and interesting websites, web applications and brand indentities primarily online but also through print and other mediums.
+My main skill set and areas of focus are:
 
-I have a strong interest in web standards and good coding practices, which I apply through my in-depth knowledge of HTML, CSS and PHP as well as jQuery and SQL.
+- PHP
+- Laravel
+- Ansible
+- CentOS
+- Continuous Integration/Automation
+- Mobile Telecoms
 
-I work for a company in the telecoms industry, developing web solutions and creating branding materials to support our cutting-edge mobile voice and data solutions.
-
-As well as sitting in front of a computer, I do the odd bit of photography, occasional games of tennis and practising my juggling & bar flair technique s, as well as many other things.
-
+I work for [SiRRAN Communications](http://www.sirran.com) where I focus on PHP web application development, DevOps and continous integration.
