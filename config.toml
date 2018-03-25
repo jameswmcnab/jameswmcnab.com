@@ -11,7 +11,7 @@ Paginate = 5
 preserveTaxonomyNames = true
 
 [params]
-  description = "This is the website of James William McNab, a software developer based in York, UK"
+  description = "I'm James William McNab, a PHP Developer/DevOps Engineer based in York, UK"
   dateFormat = "2006-01-02"
   copyrightOwner = "James William McNab"
   copyrightStartYear = "2017"
