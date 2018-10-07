@@ -1,7 +1,7 @@
-# Redirect jameswmcnab.co.uk
-http://www.jameswmcnab.co.uk/* https://www.jameswmcnab.com/:splat 301!
+# Redirect domain aliases to primary domain
 https://www.jameswmcnab.co.uk/* https://www.jameswmcnab.com/:splat 301!
-
-# Redirect jamesmcnab.co.uk
-http://www.jamesmcnab.co.uk/* https://www.jameswmcnab.com/:splat 301!
 https://www.jamesmcnab.co.uk/* https://www.jameswmcnab.com/:splat 301!
+https://jameswmcnab.co.uk/* https://www.jameswmcnab.com/:splat 301!
+
+# Redirect default Netlify subdomain to primary domain
+https://jameswmcnab-com.netlify.com/* https://www.jameswmcnab.com/:splat 301!
