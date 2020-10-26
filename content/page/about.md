@@ -1,6 +1,6 @@
 ---
 title: "About"
-draft: false
+date: "2020-10-26"
 menu: about
 ---
 

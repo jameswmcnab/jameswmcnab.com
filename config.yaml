@@ -1,0 +1,36 @@
+baseURL: "https://www.jameswmcnab.com"
+title: "James William McNab"
+languageCode: "en"
+theme: "hyde-hyde"
+
+params:
+  author: "James William McNab"
+  description: "PHP Developer & DevOps Engineer"
+
+  # sidebar, copyright & license
+  copyright: "James William McNab"
+  since: 2019
+  license: "CC BY-SA 4.0"
+  licenseURL: "https://creativecommons.org/licenses/by-sa/4.0"
+  showBuiltWith: true
+
+  # https://highlightjs.org
+  highlightjs: true
+  highlightjsstyle: "github"
+
+  # social links
+  social:
+    github: "jameswmcnab"
+    gitlab: "jameswmcnab"
+    twitter: "jameswmcnab"
+    keybase: "jameswmcnab"
+    linkedin: "jameswmcnab"
+
+permalinks:
+  page: ":title"
+  posts: "/:year/:month/:title/"
+
+menu:
+  main:
+    - Name: "About"
+      URL: "/about"
