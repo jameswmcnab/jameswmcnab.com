@@ -1,6 +1,7 @@
 ---
 title: "About"
 date: "2020-10-26"
+type: "page"
 menu: about
 ---
 
