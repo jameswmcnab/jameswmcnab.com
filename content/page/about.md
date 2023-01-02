@@ -1,10 +1,10 @@
 ---
 title: "About"
-date: "2020-10-26"
+date: "2023-01-02"
 type: "page"
 menu: about
 ---
 
-My name is James William McNab and I am a PHP Developer and DevOps Engineer in the UK.
+My name is James William McNab and I am a software engineer leading software teams.
 
-I work for [SiRRAN Communications](http://www.sirran.com) where I focus on PHP application development, DevOps and continuous integration.
+I work at [AppsAnywhere](https://www.appsanywhere.com) where I lead the development team creating next-generation student experience for one-click access to applications.
