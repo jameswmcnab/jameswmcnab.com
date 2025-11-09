@@ -1,7 +1,24 @@
 baseURL: "https://www.jameswmcnab.com"
 title: "James William McNab"
 languageCode: "en"
+defaultContentLanguage: "en"
 theme: "hyde-hyde"
+
+# Build configuration
+build:
+  useResourceCacheWhen: "fallback"
+
+# Security headers (for Netlify)
+security:
+  enableInlineShortcodes: false
+
+# Markup configuration
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+  highlight:
+    noClasses: false
 
 params:
   author: "James William McNab"
