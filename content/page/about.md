@@ -1,10 +1,12 @@
 ---
 title: "About"
+linkTitle: "About"
+description: "About James McNab"
 date: "2023-01-02"
-type: "page"
-menu: about
+lastmod: "2023-01-02"
+draft: false
 ---
 
-My name is James William McNab and I am a software engineer leading software teams.
+My name is James McNab and I am UK software engineer leading software teams.
 
-I work at [AppsAnywhere](https://www.appsanywhere.com) where I lead the development team creating next-generation student experience for one-click access to applications.
+I work at [AppsAnywhere](https://www.appsanywhere.com) where I lead the our Engineering teams in creating next-generation EdTech experiences.

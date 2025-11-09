@@ -1,12 +1,19 @@
 baseURL: "https://www.jameswmcnab.com"
-title: "James William McNab"
+title: "James McNab"
 languageCode: "en"
 defaultContentLanguage: "en"
-theme: "hyde-hyde"
+theme: "hugo-neso"
 
-# Build configuration
+# Build configuration for Tailwind CSS
 build:
   useResourceCacheWhen: "fallback"
+  buildStats:
+    enable: true
+  cachebusters:
+    - source: "assets/notwatching/hugo_stats\\.json"
+      target: "css"
+    - source: "(postcss|tailwind)\\.config\\.js"
+      target: "css"
 
 # Security headers (for Netlify)
 security:
@@ -21,27 +28,65 @@ markup:
     noClasses: false
 
 params:
-  author: "James William McNab"
+  author: "James McNab"
   description: "Leader of software teams"
+  
+  # Neso theme configuration
+  neso:
+    hide_copyright: false
+    hide_footer: false
+    support_theme_author: true
+    
+    # Home page configuration
+    home:
+      display_mode: "profile"
+      profile:
+        # Avatar image - can be:
+        # 1. Local asset: "avatar.png" (place file in assets/ directory)
+        # 2. External URL: "https://example.com/avatar.png"
+        # 3. Gravatar: Use format below (replace YOUR_EMAIL with your Gravatar email)
+        #    To get MD5 hash: echo -n "YOUR_EMAIL" | md5
+        #    Then use: "https://www.gravatar.com/avatar/MD5_HASH?s=320&d=mp"
+        avatar_image: "https://www.gravatar.com/avatar/3f79077f683fb0ccee7140b8a7f26d84?s=320&d=mp"
+        avatar_image_alt_text: "James William McNab"
+        # Optional: customize avatar size (default: 160px desktop, 128px mobile)
+        # avatar_image_size: 160
+        # avatar_image_size_sm: 128
+    
+    # Social links
+    social:
+      links:
+        - name: "GitHub"
+          url: "https://github.com/jameswmcnab"
+        - name: "GitLab"
+          url: "https://gitlab.com/jameswmcnab"
+        - name: "X"
+          url: "https://x.com/jameswmcnab"
+        - name: "LinkedIn"
+          url: "https://linkedin.com/in/jameswmcnab"
+    
+    # SEO configuration
+    seo:
+      site_description: "A UK software engineer leading software teams."
+      site_author:
+        - "James McNab"
+      schema:
+        publisher_type: "Person"
+        same_as:
+          - "https://github.com/jameswmcnab"
+          - "https://gitlab.com/jameswmcnab"
+          - "https://twitter.com/jameswmcnab"
+          - "https://keybase.io/jameswmcnab"
+          - "https://linkedin.com/in/jameswmcnab"
 
-  # sidebar, copyright & license
-  copyright: "James William McNab"
-  since: 2018
-  license: "CC BY-SA 4.0"
-  licenseURL: "https://creativecommons.org/licenses/by-sa/4.0"
-  showBuiltWith: false
-
-  # https://highlightjs.org
-  highlightjs: true
-  highlightjsstyle: "github"
-
-  # social links
-  social:
-    github: "jameswmcnab"
-    gitlab: "jameswmcnab"
-    twitter: "jameswmcnab"
-    keybase: "jameswmcnab"
-    linkedin: "jameswmcnab"
+# Module configuration for assets
+module:
+  mounts:
+    - source: "assets"
+      target: "assets"
+    - disableWatch: true
+      source: "hugo_stats.json"
+      target: "assets/notwatching/hugo_stats.json"
 
 permalinks:
   page: ":title"
@@ -49,5 +94,7 @@ permalinks:
 
 menu:
   main:
-    - Name: "About"
-      URL: "/about"
+    - identifier: "about"
+      name: "About"
+      url: "/about"
+      weight: 10
