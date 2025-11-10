@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Personal website",
   "private": true,
+  "engines": {
+    "node": ">=20"
+  },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.17",
     "tailwindcss": "^4.1.17"
